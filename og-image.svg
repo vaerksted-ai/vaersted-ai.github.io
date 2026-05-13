@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Paper background -->
+  <rect width="1200" height="630" fill="#F2EBE0"/>
+
+  <!-- Subtle atmospheric tint -->
+  <defs>
+    <radialGradient id="tint1" cx="18%" cy="22%" r="50%">
+      <stop offset="0%" stop-color="#A8431F" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#A8431F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tint2" cx="82%" cy="78%" r="55%">
+      <stop offset="0%" stop-color="#1A1614" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#1A1614" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#tint1)"/>
+  <rect width="1200" height="630" fill="url(#tint2)"/>
+
+  <!-- Top eyebrow -->
+  <g transform="translate(80, 80)">
+    <line x1="0" y1="14" x2="32" y2="14" stroke="#A8431F" stroke-width="1.5"/>
+    <text x="48" y="20"
+          font-family="'JetBrains Mono', 'Courier New', monospace"
+          font-size="16"
+          font-weight="500"
+          letter-spacing="3"
+          fill="#A8431F">A COMMUNITY OF BUILDERS</text>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="80" y="350"
+        font-family="'Instrument Serif', Georgia, 'Times New Roman', serif"
+        font-size="240"
+        font-weight="400"
+        fill="#1A1614"
+        letter-spacing="-8">V<tspan font-style="italic" fill="#A8431F">æ</tspan>rksted</text>
+
+  <!-- Tagline -->
+  <text x="80" y="450"
+        font-family="'Instrument Serif', Georgia, 'Times New Roman', serif"
+        font-style="italic"
+        font-size="44"
+        fill="#1A1614">We build AI-native apps. On principle.</text>
+
+  <!-- Footer rule -->
+  <line x1="80" y1="540" x2="1120" y2="540" stroke="#1A1614" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Footer meta -->
+  <g transform="translate(80, 575)">
+    <text x="0" y="0"
+          font-family="'JetBrains Mono', 'Courier New', monospace"
+          font-size="14"
+          letter-spacing="2"
+          fill="#5C5347">VAERKSTED.AI · KØBENHAVN · EST. MMXXVI</text>
+  </g>
+</svg>
